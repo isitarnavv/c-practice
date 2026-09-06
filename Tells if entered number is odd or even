@@ -1,0 +1,22 @@
+//question 3:enter number to check if odd or even
+ 
+ #include <stdio.h>
+ 
+int main()
+{
+ 
+    int a;
+ 
+    printf("Enter number to check if odd or even: ");
+    scanf("%d", &a);
+ 
+    if (a % 2 == 0)
+    {
+        printf("The number is even");
+    }
+    else
+        (printf("The number is odd"));
+ 
+    return 0;
+}
+ 
