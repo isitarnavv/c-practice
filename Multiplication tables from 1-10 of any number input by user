@@ -1,0 +1,19 @@
+//question 2: when user nputs any number show it's multiplication table from 1 to 10
+ 
+#include <stdio.h>
+ 
+int main()
+{
+    int a;
+    printf("Enter number");
+    scanf("%d", &a);
+ 
+    printf("Multiplication Table of %d:\n", a);
+ 
+    for (int i = 1; i <= 10; i++)
+    {
+        printf("%d x %d = %d\n", a, i, a * i);
+    }
+ 
+    return 0;
+}
