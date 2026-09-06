@@ -1,0 +1,25 @@
+//question 4: relation between 2 user input numbers
+ 
+#include <stdio.h>
+ 
+int main() {
+    int a, b;
+ 
+    printf("Enter numbers to check between: ");
+ 
+    scanf("%d %d", &a, &b); 
+ 
+    if (a > b) {
+        printf("A is greater than B");
+    } 
+ 
+    else if (b > a) {
+        printf("B is greater than A");
+    }
+ 
+    else {
+        printf("Both numbers are equal");
+    }
+ 
+    return 0;
+}
